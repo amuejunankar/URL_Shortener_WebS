@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(172, 213, 200);
+}
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.wholeBody {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.pasteText {
+    min-width: 20%;
+    max-width: 25%;
+    padding: 12px 20px;
+    color: rgb(0, 0, 0);
+    background-color: #d0eded;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    font-size: medium;
+}
+
+.shortURL {
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #4c6fff;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: medium;
+}
