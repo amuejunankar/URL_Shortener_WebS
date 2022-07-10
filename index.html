@@ -9,19 +9,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="wholeBody" id="wholebody">
-        <div class="heading" id="id_heading">
-            <h1>URL Shorty</h1>
-        </div>
+    
+    <form method="POST">
+        <div class="wholeBody" id="wholebody">
+            <div class="heading" id="id_heading">
+                <h1>URL Shorty</h1>
+            </div>
+        <div class="input" id="input"></div>
+        <input type="url" required placeholder="Paste Your Link" class="pasteText" id="pasteText">
+        <input type="button" value="Shorten URL" class="btn" id="btn">
         
-        <div class="input" id="input">
-            <input type="text" placeholder="Paste you text" class="pasteText" id="pasteText">
-            <input type="button" value="Shorten URL" class="shortURL" id="short">
-    
-        </div>
     </div>
-    
-    <h2 style="text-align:center;">Website Under Construction</h3>
-    
+    </form>
+
+    <input type="text" placeholder="Shorten URL" class="shortURL" id="id_shortURL">
+    <input type="button" value="Copy" class="copyBTN" id="copyBTN">
+
+    <h2 style="text-align:center;">We're Coming Soon</h3>
 </body>
 </html>

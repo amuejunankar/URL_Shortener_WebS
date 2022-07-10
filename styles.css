@@ -1,5 +1,6 @@
 body {
     background-color: rgb(172, 213, 200);
+    text-align: center;
 }
 .heading {
     font-family: 'Courier New', Courier, monospace;
@@ -22,8 +23,8 @@ body {
     font-size: medium;
 }
 
-.shortURL {
-    padding: 12px 20px;
+.btn {
+    padding: 12px 17px;
     color: #fff;
     background-color: #4c6fff;
     border-radius: 6px;
@@ -31,4 +32,34 @@ body {
     outline: 0;
     cursor: pointer;
     font-size: medium;
+}
+
+.shortURL {
+    padding: 12px 12px;
+    color: rgb(0, 0, 0);
+    background-color: #d0eded;
+    border-radius: 6px;
+    outline: 0;
+    border: 0;
+    min-width: 23%;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+.copyBTN {
+    padding: 12px 12px;
+    background-color: #adaed8;
+    border-radius: 6px;
+    outline: 0;
+    border: 0;
+    font-size: medium;
+}
+
+.copyBTN:hover {
+    background-color: rgb(99, 193, 129);
+    transition: 0.2s;
+}
+.btn:hover {
+    background-color: rgb(132, 125, 236);
+    transition: 0.2s;
 }
