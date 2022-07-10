@@ -24,7 +24,7 @@ body {
 }
 
 .btn {
-    padding: 12px 17px;
+    padding: 12px 12px;
     color: #fff;
     background-color: #4c6fff;
     border-radius: 6px;
@@ -44,6 +44,7 @@ body {
     min-width: 23%;
     margin-top: 1%;
     font-size: medium;
+    
 }
 
 .copyBTN {
